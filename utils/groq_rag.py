@@ -1,7 +1,7 @@
 # utils/groq_rag.py
 import requests
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 MODEL = "llama3-70b-8192" 
 
 def answer_with_groq(query: str, context: str) -> str:
